@@ -11,11 +11,15 @@ information using the [Mailgun Ruby API](https://github.com/mailgun/mailgun-ruby
 
 Add it to dashing's gemfile:
 
+```
 gem 'mailgun-ruby'
+```
 
 And run
 
-`bundle install`.
+```
+bundle install
+```
 
 
 ## Using the Mailgun widgets
@@ -28,9 +32,10 @@ To use this widget:
 
 3. Now copy over the `mailgun.yml` into the root directory of your Dashing application. Be sure to replace the following options inside of the config file with your own Mailgun information:
 
-    :api_key: "xxxxxxxxxxxxxxx"
-    :domain: 'Your Domain'
-
+```
+:api_key: "xxxxxxxxxxxxxxx"
+:domain: 'Your Domain'
+```
 
 To include the widget in a dashboard, add the following snippet to the dashboard layout file:
 
