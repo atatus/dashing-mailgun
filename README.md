@@ -1,9 +1,9 @@
-##Preview
-
-## Description
+## Mailgun widget to Dashing
 
 This is a [Dashing](http://shopify.github.com/dashing) widget to display the email
 information using the [Mailgun Ruby API](https://github.com/mailgun/mailgun-ruby).
+
+![](https://raw.githubusercontent.com/atatus/dashing-mailgun/master/preview.png)
 
 ## Dependencies
 
